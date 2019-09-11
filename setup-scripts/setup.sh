@@ -91,13 +91,13 @@ chmod 777 /home/pi/music-man
 echo "wget https://raw.githubusercontent.com/RT-IT/music-man/master/localMusic.sh -O /home/pi/music-man/localMusic.sh" >> /home/pi/.bashrc
 echo "chmod 777 /home/pi/music-man/localMusic.sh" >> /home/pi/.bashrc
 echo "chmod +x /home/pi/music-man/localMusic.sh" >> /home/pi/.bashrc
-echo "wget https://raw.githubusercontent.com/RT-IT/music-man/master//remoteMusic.sh -O /home/pi/music-man/remoteMusic.sh" >> /home/pi/.bashrc
+echo "wget https://raw.githubusercontent.com/RT-IT/music-man/master/remoteMusic.sh -O /home/pi/music-man/remoteMusic.sh" >> /home/pi/.bashrc
 echo "chmod 777 /home/pi/music-man/remoteMusic.sh" >> /home/pi/.bashrc
 echo "chmod +x /home/pi/music-man/remoteMusic.sh" >> /home/pi/.bashrc
-echo "wget https://raw.githubusercontent.com/RT-IT/music-man/master//noMusic.sh -O /home/pi/music-man/noMusic.sh" >> /home/pi/.bashrc
+echo "wget https://raw.githubusercontent.com/RT-IT/music-man/master/noMusic.sh -O /home/pi/music-man/noMusic.sh" >> /home/pi/.bashrc
 echo "chmod 777 /home/pi/music-man/noMusic.sh" >> /home/pi/.bashrc
 echo "chmod +x /home/pi/music-man/noMusic.sh" >> /home/pi/.bashrc
-echo "wget https://raw.githubusercontent.com/RT-IT/music-man/master//connectivity.sh -O /home/pi/music-man/connectivity.sh" >> /home/pi/.bashrc
+echo "wget https://raw.githubusercontent.com/RT-IT/music-man/master/connectivity.sh -O /home/pi/music-man/connectivity.sh" >> /home/pi/.bashrc
 echo "chmod 777 /home/pi/music-man/connectivity.sh" >> /home/pi/.bashrc
 echo "chmod +x /home/pi/music-man/connectivity.sh" >> /home/pi/.bashrc
 echo "amixer sset 'Master' 65%" >> /home/pi/.bashrc
