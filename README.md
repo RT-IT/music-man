@@ -9,5 +9,5 @@ Pi Music Player for Stores
 ```
 curl https://raw.githubusercontent.com/RT-IT/music-man/master/setup-scripts/setup.sh
 chmod +x ./setup.sh
-sudo ./setup.sh -s <sitename>
+sudo ./setup.sh -s "<sitename>"
 ```

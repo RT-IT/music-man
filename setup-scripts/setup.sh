@@ -10,11 +10,12 @@ echo "###########################################"
 
 sleep 10s
 
-while getopts s option
+while getopts s:p option
     do
     case "${option}"
         in
             s) SITENAME=${OPTARG,,};;
+            p) PASSWORD=${OPTARG,,};;
     esac
 done
 
@@ -26,6 +27,10 @@ if [ -z "$SITENAME" ]; then
     echo "#   Exiting now... please try again!      #"
     echo "###########################################"
     exit
+fi
+
+if [ -z "$PASSWORD" ]; then
+    PASSWORD=$(date +%s | sha256sum | base64 | head -c 32)
 fi
 
 if [ "$EUID" -ne 0 ]; then
@@ -43,7 +48,6 @@ echo "#        Changing default password        #"
 echo "###########################################"
 
 sleep 3s
-PASSWORD=$(date +%s | sha256sum | base64 | head -c 32)
 echo "pi:$PASSWORD" | chpasswd
 
 
