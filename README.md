@@ -7,7 +7,7 @@ Music Player for Stores
 ### On Pi 🥧
 
 ```
-curl https://github.com/RT-IT/music-man/raw/branch/master/setup-scripts/setup.sh 
+curl https://raw.githubusercontent.com/RT-IT/music-man/master/setup-scripts/setup.sh
 chmod +x ./setup.sh
 sudo ./setup.sh -s <sitename>
 ```
