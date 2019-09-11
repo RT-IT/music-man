@@ -1,6 +1,6 @@
 # Music-Man
 
-Music Player for Stores
+Pi Music Player for Stores
 
 ## Getting Started ✅
 
