@@ -7,5 +7,7 @@ Music Player for Stores
 ### On Pi 🥧
 
 ```
-curl https://git.racetrackpitstop.co.uk/Racetrack/music-man/raw/branch/master/setup-scripts/setup.sh | sudo bash -s <sitename>
+curl https://github.com/RT-IT/music-man/raw/branch/master/setup-scripts/setup.sh 
+chmod +x ./setup.sh
+sudo ./setup.sh -s <sitename>
 ```
